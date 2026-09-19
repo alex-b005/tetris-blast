@@ -11,6 +11,7 @@
      B  headband      S  skin          s  skin shade
      E  eye           C  eye glow (firing only)
      G  gi / body     W  gi highlight  T  belt / trim
+     P  pants / legs
    ============================================================ */
 
 const SPRITE_W = 20;
@@ -36,10 +37,10 @@ const SPRITE_READY = [
   '.OOSSOGGGGGGGGGGO...',
   '..OSSOGGGGGGGGGO....',
   '...OTTTTTTTTTTO.....',
-  '...OGGGGOOGGGGO.....',
-  '...OGGGO..OGGGO.....',
-  '..OGGGO....OGGGO....',
-  '..OGGO......OGGO....',
+  '...OPPPPOOPPPPO.....',
+  '...OPPPO..OPPPO.....',
+  '..OPPPO....OPPPO....',
+  '..OPPO......OPPO....',
   '.OSSSO......OSSSO...',
   '.OOOOO......OOOOO...'
 ];
@@ -64,10 +65,10 @@ const SPRITE_FIRE = [
   'OOOOSSSSGGGGGGGGO...',
   '....OOGGGGGGGGGO....',
   '....OTTTTTTTTTTO....',
-  '....OGGGGOOGGGGO....',
-  '...OGGGO...OGGGO....',
-  '..OGGGO.....OGGGO...',
-  '..OGGO.......OGGO...',
+  '....OPPPPOOPPPPO....',
+  '...OPPPO...OPPPO....',
+  '..OPPPO.....OPPPO...',
+  '..OPPO.......OPPO...',
   '.OSSSO.......OSSSO..',
   '.OOOOO.......OOOOO..'
 ];

@@ -64,7 +64,7 @@ const FIGHTERS = [
     shout: 'KI BLAST!',
     palette: {
       O: '#12101f', H: '#2e2116', B: '#e23a3a', S: '#ffcb92', s: '#d99a5f',
-      E: '#12101f', C: '#22e5ff', G: '#f2f3fa', W: '#ffffff', T: '#2b2b7a'
+      E: '#12101f', C: '#22e5ff', G: '#f2f3fa', W: '#ffffff', T: '#2b2b7a', P: '#f2f3fa'
     },
     beam: { core: '#ffffff', mid: '#22e5ff', outer: '#0a5cff' }
   },
@@ -74,7 +74,7 @@ const FIGHTERS = [
     shout: 'BURN IT DOWN!',
     palette: {
       O: '#1c0a05', H: '#ffd93d', B: '#8b1a1a', S: '#ffcb92', s: '#d99a5f',
-      E: '#1c0a05', C: '#ff9f1c', G: '#f0452a', W: '#ff7a5c', T: '#f2f3fa'
+      E: '#1c0a05', C: '#ff9f1c', G: '#f0452a', W: '#ff7a5c', T: '#f2f3fa', P: '#f0452a'
     },
     beam: { core: '#ffffff', mid: '#ff9f1c', outer: '#d81414' }
   },
@@ -84,7 +84,7 @@ const FIGHTERS = [
     shout: 'VANISH!',
     palette: {
       O: '#040a14', H: '#0d1424', B: '#4dff88', S: '#ffcb92', s: '#d99a5f',
-      E: '#040a14', C: '#4dff88', G: '#16305e', W: '#2b5090', T: '#4dff88'
+      E: '#040a14', C: '#4dff88', G: '#16305e', W: '#2b5090', T: '#4dff88', P: '#16305e'
     },
     beam: { core: '#ffffff', mid: '#4dff88', outer: '#00996b' }
   },
@@ -94,7 +94,7 @@ const FIGHTERS = [
     shout: 'ERASED!',
     palette: {
       O: '#150428', H: '#efe6ff', B: '#ffd93d', S: '#f2d5b6', s: '#c9a179',
-      E: '#150428', C: '#ff4dff', G: '#6a20d0', W: '#9a54f0', T: '#ffd93d'
+      E: '#150428', C: '#ff4dff', G: '#6a20d0', W: '#9a54f0', T: '#ffd93d', P: '#6a20d0'
     },
     beam: { core: '#ffffff', mid: '#ff4dff', outer: '#7b2cbf' }
   },
@@ -104,7 +104,7 @@ const FIGHTERS = [
     shout: 'CRUSHED!',
     palette: {
       O: '#1a1006', H: '#5a3a12', B: '#ffd93d', S: '#e8a86a', s: '#b87b42',
-      E: '#1a1006', C: '#ffd93d', G: '#a8641e', W: '#d98c34', T: '#ffd93d'
+      E: '#1a1006', C: '#ffd93d', G: '#a8641e', W: '#d98c34', T: '#ffd93d', P: '#a8641e'
     },
     beam: { core: '#ffffff', mid: '#ffd93d', outer: '#ff7a00' }
   },
@@ -114,9 +114,19 @@ const FIGHTERS = [
     shout: 'OVERLOAD!',
     palette: {
       O: '#02101a', H: '#7fe9ff', B: '#22e5ff', S: '#cfd8e6', s: '#93a3b8',
-      E: '#02101a', C: '#ffffff', G: '#123a5c', W: '#1f6d9e', T: '#22e5ff'
+      E: '#02101a', C: '#ffffff', G: '#123a5c', W: '#1f6d9e', T: '#22e5ff', P: '#123a5c'
     },
     beam: { core: '#ffffff', mid: '#a8f0ff', outer: '#00a2ff' }
+  },
+  {
+    id: 'cipher',
+    name: 'CIPHER',
+    shout: 'SYSTEM CRASH!',
+    palette: {
+      O: '#0a0c10', H: '#1a120d', B: '#e23a3a', S: '#6b4226', s: '#432b16',
+      E: '#0a0c10', C: '#ffb020', G: '#4a5560', W: '#8a97a3', T: '#ffb020', P: '#c41e1e'
+    },
+    beam: { core: '#fff6e0', mid: '#ffb020', outer: '#c46200' }
   }
 ];
 
